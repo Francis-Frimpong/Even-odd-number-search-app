@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 132, 255);
+    margin: 1em;
+}
+
+.form-field{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+padding: 1.5em;
+
+}
+
+.form-field > label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.form-field > input{
+  padding: 1em;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  
+  
+}
+.form-field > input[type]{
+  font-size: 1rem; 
+  padding-left: 2em;  
+  padding-right: 2em;
+  
+}
+
+.form-field > input::placeholder{
+    text-align: center;  
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.btn > button{
+    color: rgb(0, 132, 255);
+    background-color: #fff;
+    padding: .9em;
+    font-size: .9rem;
+    font-weight: 600;
+    border: none; 
+    border-radius: 30px; 
+}
+
+.odd-num-btn{
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 45%;
+}
+
+.results-text{
+    text-align: center;
+    margin-top: 1.5em;
+    color:#fff;
+    font-size: 2.3rem;
+}
+
+.results{
+    margin-top: 1em;
+    text-align: center;
+    color: #fff;
+    padding: .5em;
+    font-size: 2rem;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+   
+}
+/*@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+  }*/
+
+
+
+
